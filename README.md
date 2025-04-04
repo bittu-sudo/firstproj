@@ -1,7 +1,7 @@
-# Video Rental System (VRS)
+# MovieMart
 
 ## Overview
-Video Rental System (VRS) is an online portal that allows customers to rent  movies while enabling staff to manage inventory efficiently. The system provides a seamless experience for users to browse movies by genre and many features, add them to their cart, and proceed with rental. It also includes features for staff and managers to handle inventory, monitor due returns, and generate invoices.
+MovieMart is an online video renting portal that allows customers to rent  movies while enabling staff to manage inventory efficiently. The system provides a seamless experience for users to browse movies by genre and many features, add them to their cart, and proceed with rental. It also includes features for staff and managers to handle inventory, monitor due returns, and generate invoices.
 
 ## Features
 ### Customers:
