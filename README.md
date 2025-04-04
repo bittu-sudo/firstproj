@@ -33,11 +33,11 @@ MovieMart is an online video renting portal that allows customers to rent  movie
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/bittu-sudo/rental
+   git clone https://github.com/bittu-sudo/firstproj
    ```
 2. Navigate to the project folder:
    ```sh
-   cd vrs
+   cd firstproj
    ```
 3. Set up a virtual environment (optional but recommended):
    ```sh
