@@ -117,6 +117,18 @@ header {
     background-color: var(--accent-color);
     transform: translateY(-2px);
 }
+#search-button {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#search-button:hover {
+    background-color: #333;
+}
 
 /* User Navigation */
 .user-nav {

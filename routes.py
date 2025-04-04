@@ -593,7 +593,7 @@ def login_staff():
         
         staff = Staff.query.filter_by(name=staffname).first()
         
-        if (staff is None) or (staff.email != email) or (staff.check_password(password) == False):
+        if (staff is None)  or (staff.check_password(password) == False):
             flash('Invalid credentials!', 'error')
             return render_template("login_staff.html")
         else:

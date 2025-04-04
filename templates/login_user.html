@@ -12,15 +12,17 @@
     <h1 class="header">MovieMart</h1>
     <form action="/login_user" method="POST">
       <h2>User Login</h2>
-      {% with messages = get_flashed_messages() %}
-      {% if messages %}
-        <ul class="flashes">
-        {% for message in messages %}
-        <li>{{ message }}</li>
+      {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+      <div class="flash-container">
+        {% for category, message in messages %}
+          <div class="flash-message {{ category }}">
+            {{ message }}
+          </div>
         {% endfor %}
-        </ul>
-      {% endif %}
-      {% endwith %}
+      </div>
+    {% endif %}
+  {% endwith %}
 
       {% if warn=="y" %}
         <div class="warning">Invalid Credentials!</div>
