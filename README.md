@@ -33,7 +33,7 @@ Video Rental System (VRS) is an online portal that allows customers to rent  mov
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/bittu-sudo/vrs
+   git clone https://github.com/bittu-sudo/rental
    ```
 2. Navigate to the project folder:
    ```sh
@@ -53,5 +53,5 @@ Video Rental System (VRS) is an online portal that allows customers to rent  mov
    python run.py
    ```
 
-Thank you for choosing the   !
+Thank you for choosing the   MovieMart!
 
